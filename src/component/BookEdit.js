@@ -12,7 +12,8 @@ function BookEdit({ book, onEdit, onSubmit }) {
     event.preventDefault();
     onEdit(book.id, title);
     onSubmit(book.id, title);
-    console.log("New word", title);
+    console.log("New word -2", title);
+    console.log("New word -2", title);
     
   };
 
